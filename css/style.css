@@ -28,17 +28,32 @@ header {
     line-height: 21px;
     color: #A5A5A5;
     margin-left: 44px;
-    }
+}
 .navigation {
-        margin-right: 44px;
-        margin-left: auto;
-    }
+    margin-right: 44px;
+    margin-left: auto;
+}
 .navigation-link {
+    position: relative;
     text-decoration: none;
     font-size: 18px;
     line-height: 21px;
     color: #363636;
     margin-right: 18px;
+}
+.navigation-link:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.2s;
+}
+.navigation-link:hover:after {
+    transform: scaleX(1);
 }
 .button-group {
     height: 100%;
@@ -65,4 +80,4 @@ header {
     border: none;
     padding-left: 50px;
     padding-right: 50px;
-   }
+}
