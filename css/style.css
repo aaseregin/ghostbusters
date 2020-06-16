@@ -28,6 +28,10 @@ header {
     line-height: 21px;
     color: #A5A5A5;
     margin-left: 44px;
+    outline-color: gray;
+}
+.search-input:focus{
+    outline-style: dotted;
 }
 .navigation {
     margin-right: 44px;
@@ -56,6 +60,7 @@ header {
     transform: scaleX(1);
 }
 .button-group {
+    display: flex;
     height: 100%;
 }
 .button {
