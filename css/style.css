@@ -242,6 +242,7 @@ header {
 .tabs {
     display: flex;
     align-items: center;
+    margin-bottom: 60px;
 }
 
 .section-title {
@@ -257,10 +258,17 @@ header {
     font-weight: 900;
 }
 
+.tabs-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .card {
     display: flex;
     align-items: center;
-    
+    flex-basis: 25%;
+    margin-bottom: 35px;
 }
 
 .card-image {
@@ -268,4 +276,19 @@ header {
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 16px;
+    line-height: 19px;
+    color: #5671F6;
+    margin-top: 0;
+    margin-bottom: 6px;
+
+}
+
+.en-name {
+    color: #A5A5A5;
+
 }
