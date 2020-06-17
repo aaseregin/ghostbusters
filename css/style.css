@@ -98,6 +98,7 @@ header {
 .film {
     padding-top: 80px;
     padding-bottom: 80px;
+    border-bottom: 1px solid #D4D4D4;
 }
 .film-wrapper{
     display: flex;
@@ -201,4 +202,22 @@ header {
 .rating-text-bold {
     font-weight: bold;
 }    
-    
+.cast {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.tabs {
+    display: flex;
+    align-items: center;
+}
+.section-title {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A5A5A5;
+    margin-right: 30px;
+}
+.section-title.active {
+    color: #363636;
+    font-weight: 900;
+}    
