@@ -86,3 +86,38 @@ header {
     padding-left: 50px;
     padding-right: 50px;
 }
+.container {
+    max-width: 1130px;
+    margin:auto
+}
+.film {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.film-wrapper{
+    display: flex;
+}
+.film-trailer {
+    display: flex;
+    flex-direction: column;
+}
+.poster {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 358px;
+}
+.trailer-button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+    bottom: 1px solid;
+    border: 1px solid #D4D4D4;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 25px;
+    padding-top: 25px;;
+}
+/* .trailer-button-icon, 
+.trailer-button-text {
+    vertical-align: middle;
+} */
