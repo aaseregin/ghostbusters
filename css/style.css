@@ -142,7 +142,7 @@ header {
     font-size: 18px;
     line-height: 21px;
 }
-.film-descripton {
+.film-description {
     font-style: 14px;
     line-height: 150%;
     max-width: 514px;
@@ -150,12 +150,21 @@ header {
     margin-bottom: 50px;
 }
 .about-film {
-    display:flex;
+    display: flex;
+    margin-bottom: 50px;
 }
 .about-text {
     display: block;
+    font-style: 16px;
+    line-height: 19px;
+    margin-bottom: 16px;
 }
 .about-text-bold {
     display: inline-block;
     width: 100px;
+    vertical-align: top;
+    font-weight: bold;
+}
+.left-side {
+    margin-right: 40px;
 }
