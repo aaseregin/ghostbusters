@@ -256,3 +256,16 @@ header {
     color: #363636;
     font-weight: 900;
 }
+
+.card {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
