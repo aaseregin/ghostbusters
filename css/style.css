@@ -551,5 +551,13 @@ body {
         height: 60px;
 
     }
-    
+    .tabs {
+        margin-bottom: 35px;
+    }
+    .cast {
+        padding-bottom: 50px;
+    }
+    .news-card {
+        flex-basis: 100%;
+    }
 }
