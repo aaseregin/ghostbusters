@@ -408,7 +408,7 @@ body {
     .card {
         flex-basis: 50%;
 
-    }.news-cards {
+    }.news-card {
         flex-basis: 45%;
         margin-bottom: 20px;
     }
