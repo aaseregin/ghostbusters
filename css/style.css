@@ -101,7 +101,7 @@ body {
     border: none;
     padding-left: 34px;
     padding-right: 34px;
-    background-color: #fff;
+    background-color: #ffffff;
     border-left: 1px solid #d4d4d4;
 }
 
@@ -114,8 +114,12 @@ body {
     padding-left: 50px;
     padding-right: 50px;
 }
-.m-menu-button {
-   padding: 5px; 
+.m-menu-button,
+.search-button {
+   padding: 5px;
+   background-color: #ffffff;
+   border: none; 
+   cursor: pointer;
 }
 .menu-line {
     display: block;
@@ -123,9 +127,9 @@ body {
     background-color: #000;
     height: 2px;
     flex-basis: 16px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 40px;
 }
 .container {
     max-width: 1130px;
@@ -499,6 +503,11 @@ body {
     .film-text {
         order: 1;
         margin-bottom: 0px;
+    }
+    .header {
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+
     }
 
 }
