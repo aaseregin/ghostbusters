@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -179,7 +181,7 @@ header {
 
 .about-film {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .about-text {
@@ -197,7 +199,7 @@ header {
 }
 
 .left-side {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .rating {
@@ -213,6 +215,10 @@ header {
     border: 1px solid #5671f6;
     border-radius: 10px;
     margin-right: 28px;
+    color: #5671F6;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
 }
 
 .rating-title {
@@ -221,6 +227,7 @@ header {
     line-height: 21px;
     margin-top: 0;
     margin-bottom: 12px;
+    
 }
 
 .rating-text {
@@ -228,6 +235,7 @@ header {
     margin-bottom: 7px;
     font-size: 16px;
     line-height: 19px;
+    
 }
 
 .rating-text-bold {
@@ -290,5 +298,37 @@ header {
 
 .en-name {
     color: #A5A5A5;
+}
+.news{
+    background-color: #F3F3F3;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.section-news-title {
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 65px;
+}
+.news-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.news-card {
+    flex-basis: 23%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
 
+}
+.news-date {
+    font-size: 14px;
+    line-height: 16px;
+}
+.news-title {
+    margin-top: 14px;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000;
 }
