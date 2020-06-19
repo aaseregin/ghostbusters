@@ -29,7 +29,7 @@ $(document).ready(function() {
       },
       320: {
         slidesPerView: 1,
-        slidesOffSetAfter: 50,
+        slidesOffsetAfter: 50,
         navigation: {
           nextEl: ".button-next",
         }
