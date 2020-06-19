@@ -15,12 +15,15 @@ body {
 
 .header {
     display: flex;
-    align-items: center;    
+    align-items: center;
+    justify-content: space-between;    
     height: 104px;
     border-bottom: 1px solid #d4d4d4;
     padding-left: 34px;
+    position: relative;
 }
 .m-menu {
+    position: relative;
     height: 100%;
     align-items: center;
     display: flex;
@@ -426,7 +429,7 @@ body {
     }
 
     .search-input {
-        margin: 0;
+        margin-right: auto;
     }
 
     .navigation-link {
@@ -465,6 +468,7 @@ body {
         flex-basis: 45%;
         margin-bottom: 20px;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -487,7 +491,7 @@ body {
         right: 0;
         bottom: 0;
         height: calc(100%-68px);
-        background-color: #5671f6;
+        background: #5671f6;
     }
     .m-menu.active {
         display: flex;
