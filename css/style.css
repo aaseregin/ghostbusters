@@ -376,6 +376,17 @@ body {
     line-height: 16px;
     color: #000;
 }
+.button-next {
+    display: none;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 99;
+    cursor: pointer;
+}
 
 @media (max-width: 1200px) {
     .container {
@@ -486,7 +497,7 @@ body {
         align-items: center;
         justify-content: space-around;
         position: fixed;
-        top: 68;
+        top: 68px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -553,6 +564,12 @@ body {
     .news {
         padding-top: 50px;
         padding-bottom: 70px;
+    }
+    .news-card {
+        max-width: 90%;
+    }
+    .button-next {
+        display: block;
     }
     .mobile-buttons {
         display: block;
